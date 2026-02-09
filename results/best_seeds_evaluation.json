@@ -1,0 +1,137 @@
+{
+  "bert_base_uncased_figlang": {
+    "batch_size": 32,
+    "best_test_f1": 0.76213315853495,
+    "dataset": "figlang",
+    "learning_rate": 1e-05,
+    "log_file": "15CF646512974853958AD32D160AE992.json",
+    "pretrained_model_name": "google-bert/bert-base-uncased",
+    "seed": 2
+  },
+  "bert_base_uncased_isarcasm": {
+    "batch_size": 16,
+    "best_test_f1": 0.6780631403272912,
+    "dataset": "isarcasm",
+    "learning_rate": 1e-05,
+    "log_file": "F29C19041BF649089E9AF68726ED2465.json",
+    "pretrained_model_name": "google-bert/bert-base-uncased",
+    "seed": 1
+  },
+  "bert_base_uncased_news_headlines": {
+    "batch_size": 32,
+    "best_test_f1": 0.9366270064454101,
+    "dataset": "news_headlines",
+    "learning_rate": 2e-05,
+    "log_file": "BB349AD3B5B848AE857CB6FA52485932.json",
+    "pretrained_model_name": "google-bert/bert-base-uncased",
+    "seed": 9
+  },
+  "bert_medium_figlang": {
+    "batch_size": 16,
+    "best_test_f1": 0.7497393775989918,
+    "dataset": "figlang",
+    "learning_rate": 1e-05,
+    "log_file": "0D23A84D878747B5BAFDA58062F90368.json",
+    "pretrained_model_name": "prajjwal1/bert-medium",
+    "seed": 7
+  },
+  "bert_medium_isarcasm": {
+    "batch_size": 8,
+    "best_test_f1": 0.6257414367952447,
+    "dataset": "isarcasm",
+    "learning_rate": 1e-05,
+    "log_file": "5C19962B9AE547B190CE33A5F3CF0BF0.json",
+    "pretrained_model_name": "prajjwal1/bert-medium",
+    "seed": 1
+  },
+  "bert_medium_news_headlines": {
+    "batch_size": 8,
+    "best_test_f1": 0.9297112013330249,
+    "dataset": "news_headlines",
+    "learning_rate": 1e-05,
+    "log_file": "73D524BF5DAE43E9A5868521B76885E7.json",
+    "pretrained_model_name": "prajjwal1/bert-medium",
+    "seed": 1
+  },
+  "bert_mini_figlang": {
+    "batch_size": 16,
+    "best_test_f1": 0.7263709411953375,
+    "dataset": "figlang",
+    "learning_rate": 2e-05,
+    "log_file": "0FDE61D79A6A41359FA22BF7D254F3EA.json",
+    "pretrained_model_name": "prajjwal1/bert-mini",
+    "seed": 6
+  },
+  "bert_mini_isarcasm": {
+    "batch_size": 16,
+    "best_test_f1": 0.6119830973385723,
+    "dataset": "isarcasm",
+    "learning_rate": 3e-05,
+    "log_file": "212DA29D164143A8ADC72622DF9A4129.json",
+    "pretrained_model_name": "prajjwal1/bert-mini",
+    "seed": 1
+  },
+  "bert_mini_news_headlines": {
+    "batch_size": 16,
+    "best_test_f1": 0.9165772492585339,
+    "dataset": "news_headlines",
+    "learning_rate": 5e-05,
+    "log_file": "1DA532F86B2840579C8DDF6520D659B3.json",
+    "pretrained_model_name": "prajjwal1/bert-mini",
+    "seed": 8
+  },
+  "bert_small_figlang": {
+    "batch_size": 8,
+    "best_test_f1": 0.7324855657537288,
+    "dataset": "figlang",
+    "learning_rate": 5e-05,
+    "log_file": "674480CCB99C4018BD0634BB21F73346.json",
+    "pretrained_model_name": "prajjwal1/bert-small",
+    "seed": 1
+  },
+  "bert_small_isarcasm": {
+    "batch_size": 32,
+    "best_test_f1": 0.6296011768551815,
+    "dataset": "isarcasm",
+    "learning_rate": 0.0001,
+    "log_file": "07C649F62EFC45E79BD7207D1D2AEF49.json",
+    "pretrained_model_name": "prajjwal1/bert-small",
+    "seed": 1
+  },
+  "bert_small_news_headlines": {
+    "batch_size": 32,
+    "best_test_f1": 0.9269814364981581,
+    "dataset": "news_headlines",
+    "learning_rate": 3e-05,
+    "log_file": "B747088313694FE7AEE0BCC5C28020E2.json",
+    "pretrained_model_name": "prajjwal1/bert-small",
+    "seed": 1
+  },
+  "bert_tiny_figlang": {
+    "batch_size": 8,
+    "best_test_f1": 0.7108987878473474,
+    "dataset": "figlang",
+    "learning_rate": 5e-05,
+    "log_file": "C25B63579BF9459FA5FFCE89CF74D72B.json",
+    "pretrained_model_name": "prajjwal1/bert-tiny",
+    "seed": 3
+  },
+  "bert_tiny_isarcasm": {
+    "batch_size": 32,
+    "best_test_f1": 0.5970264688700746,
+    "dataset": "isarcasm",
+    "learning_rate": 0.0001,
+    "log_file": "0E9213CA2B3845BC853F9977F6C39C68.json",
+    "pretrained_model_name": "prajjwal1/bert-tiny",
+    "seed": 4
+  },
+  "bert_tiny_news_headlines": {
+    "batch_size": 16,
+    "best_test_f1": 0.8938107108205718,
+    "dataset": "news_headlines",
+    "learning_rate": 0.0001,
+    "log_file": "067A6A0906CD432DBD3E5145D2BD2DAC.json",
+    "pretrained_model_name": "prajjwal1/bert-tiny",
+    "seed": 1
+  }
+}

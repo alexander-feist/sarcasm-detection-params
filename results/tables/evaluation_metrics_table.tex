@@ -1,0 +1,23 @@
+\begin{tabularx}{\linewidth}{l X S[table-format=1.3, group-digits=false]@{${}\,\pm\,{}$}S[table-format=1.3, group-digits=false] S[table-format=1.3, group-digits=false]@{${}\,\pm\,{}$}S[table-format=1.3, group-digits=false] S[table-format=1.3, group-digits=false]@{${}\,\pm\,{}$}S[table-format=1.3, group-digits=false] S[table-format=1.3, group-digits=false]@{${}\,\pm\,{}$}S[table-format=1.3, group-digits=false] S[table-format=4.3, group-digits=false]@{${}\,\pm\,{}$}S[table-format=1.3, group-digits=false]}
+\toprule
+\multicolumn{1}{l}{} & \multicolumn{1}{l}{\textbf{Model}} & \multicolumn{2}{c}{\textbf{Accuracy}} & \multicolumn{2}{c}{\textbf{Precision}} & \multicolumn{2}{c}{\textbf{Recall}} & \multicolumn{2}{c}{\textbf{F1}} & \multicolumn{2}{c}{\textbf{Training Time}} \\
+\midrule
+\multirow{5}{*}{\parbox{2.2cm}{\centering\rotatebox{90}{\textbf{\shortstack{News\\Headlines}}}}} & \texttt{bert-tiny} & 0.886 & 0.005 & 0.886 & 0.005 & 0.886 & 0.005 & 0.886 & 0.005 & 39.874 & 0.178 \\
+ & \texttt{bert-mini} & 0.907 & 0.004 & 0.907 & 0.004 & 0.907 & 0.005 & 0.907 & 0.004 & 108.300 & 0.021 \\
+ & \texttt{bert-small} & 0.914 & 0.006 & 0.914 & 0.006 & 0.914 & 0.006 & 0.914 & 0.006 & 273.819 & 0.030 \\
+ & \texttt{bert-medium} & 0.920 & 0.005 & 0.920 & 0.004 & 0.920 & 0.005 & 0.920 & 0.005 & 571.127 & 0.163 \\
+ & \texttt{bert-base} & 0.932 & 0.003 & 0.932 & 0.003 & 0.932 & 0.003 & 0.932 & 0.003 & 1510.178 & 0.270 \\
+\midrule
+\multirow{5}{*}{\parbox{2.2cm}{\centering\rotatebox{90}{\textbf{\shortstack{iSarcasm}}}}} & \texttt{bert-tiny} & 0.725 & 0.025 & 0.589 & 0.028 & 0.568 & 0.018 & 0.570 & 0.019 & 4.589 & 0.004 \\
+ & \texttt{bert-mini} & 0.738 & 0.015 & 0.592 & 0.023 & 0.575 & 0.018 & 0.579 & 0.020 & 18.590 & 0.003 \\
+ & \texttt{bert-small} & 0.720 & 0.038 & 0.590 & 0.031 & 0.577 & 0.020 & 0.579 & 0.022 & 46.696 & 0.010 \\
+ & \texttt{bert-medium} & 0.745 & 0.025 & 0.612 & 0.022 & 0.587 & 0.025 & 0.590 & 0.023 & 97.345 & 0.022 \\
+ & \texttt{bert-base} & 0.758 & 0.026 & 0.635 & 0.027 & 0.626 & 0.025 & 0.628 & 0.023 & 261.430 & 0.045 \\
+\midrule
+\multirow{5}{*}{\parbox{2.2cm}{\centering\rotatebox{90}{\textbf{\shortstack{FigLang}}}}} & \texttt{bert-tiny} & 0.696 & 0.010 & 0.698 & 0.012 & 0.696 & 0.011 & 0.695 & 0.010 & 33.383 & 0.363 \\
+ & \texttt{bert-mini} & 0.720 & 0.006 & 0.722 & 0.007 & 0.720 & 0.006 & 0.720 & 0.006 & 49.294 & 0.009 \\
+ & \texttt{bert-small} & 0.717 & 0.011 & 0.721 & 0.009 & 0.718 & 0.010 & 0.716 & 0.011 & 138.265 & 0.026 \\
+ & \texttt{bert-medium} & 0.732 & 0.010 & 0.734 & 0.010 & 0.732 & 0.011 & 0.731 & 0.011 & 247.449 & 0.044 \\
+ & \texttt{bert-base} & 0.735 & 0.015 & 0.738 & 0.013 & 0.735 & 0.014 & 0.734 & 0.015 & 686.175 & 0.300 \\
+\bottomrule
+\end{tabularx}

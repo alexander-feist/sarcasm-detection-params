@@ -1,0 +1,152 @@
+{
+  "id": "2D94AD01C8F541A6AE65BD5E896573F2",
+  "device": {
+    "os": "Linux-6.14.0-37-generic-x86_64-with-glibc2.39",
+    "python_version": "3.13.8",
+    "processor": "Intel(R) Core(TM) Ultra 7 265K",
+    "accelerator": {
+      "type": "cuda",
+      "count": 1,
+      "devices": [
+        {
+          "name": "NVIDIA GeForce RTX 5070 Ti",
+          "total_memory_gb": 15.47,
+          "compute_capability": "12.0"
+        }
+      ]
+    },
+    "cpu_cores_physical": 20,
+    "cpu_cores_logical": 20,
+    "cpu_frequency_mhz": 5120.0,
+    "total_memory_gb": 30.62,
+    "torch_num_threads": 20
+  },
+  "config": {
+    "seed": 1,
+    "dataset": "NewsHeadlinesDataset",
+    "pretrained_model_name": "prajjwal1/bert-tiny",
+    "classification_head": {
+      "head_type": "BertSingleTokenAttention",
+      "dropout_p": 0.1
+    },
+    "train_test_split": 0.7,
+    "batch_size": 32,
+    "learning_rate": 3e-05,
+    "max_grad_norm": 1.0,
+    "num_train_epochs": 5
+  },
+  "metadata": {
+    "created_time": "2025-12-24T11:59:35.695504+01:00",
+    "updated_time": "2025-12-24T12:00:04.642774+01:00",
+    "num_params": 4386306,
+    "best_epoch": 4,
+    "best_valid_f1": 0.8914042897647603
+  },
+  "results": {
+    "train": [
+      {
+        "epoch": 0,
+        "loss": 0.4713230160624977,
+        "accuracy": 0.7684820046922578,
+        "precision": 0.767970344759433,
+        "recall": 0.7678972663695618,
+        "f1": 0.7679322968239735,
+        "train_time_taken": 5.482121918001212
+      },
+      {
+        "epoch": 1,
+        "loss": 0.3502616260254212,
+        "accuracy": 0.8473019517795637,
+        "precision": 0.8469179319067419,
+        "recall": 0.8470994965639946,
+        "f1": 0.8470013291928624,
+        "train_time_taken": 5.246938190990477
+      },
+      {
+        "epoch": 2,
+        "loss": 0.2913799925664205,
+        "accuracy": 0.8763540158738082,
+        "precision": 0.8760310478652009,
+        "recall": 0.8761835171433661,
+        "f1": 0.8761028373789319,
+        "train_time_taken": 5.244248246992356
+      },
+      {
+        "epoch": 3,
+        "loss": 0.25499744418610415,
+        "accuracy": 0.8951729646083961,
+        "precision": 0.8949796845025173,
+        "recall": 0.8948719693021612,
+        "f1": 0.8949240671259906,
+        "train_time_taken": 5.258211211999878
+      },
+      {
+        "epoch": 4,
+        "loss": 0.21390392760296115,
+        "accuracy": 0.9134927369839765,
+        "precision": 0.9133100079169312,
+        "recall": 0.9132824363197956,
+        "f1": 0.9132961098945707,
+        "train_time_taken": 5.262434413001756
+      }
+    ],
+    "valid": [
+      {
+        "epoch": 0,
+        "loss": 0.3581936484133756,
+        "accuracy": 0.8378756114605171,
+        "precision": 0.8415508938526763,
+        "recall": 0.8406217032766167,
+        "f1": 0.8378561769168489,
+        "evaluate_time_taken": 0.3179700310138287
+      },
+      {
+        "epoch": 1,
+        "loss": 0.3078869939402298,
+        "accuracy": 0.874446773817843,
+        "precision": 0.8740884034760737,
+        "recall": 0.874917418711288,
+        "f1": 0.8742891804064217,
+        "evaluate_time_taken": 0.3111333410051884
+      },
+      {
+        "epoch": 2,
+        "loss": 0.28658309716869285,
+        "accuracy": 0.8816678313533659,
+        "precision": 0.8819771667018308,
+        "recall": 0.8829317206154232,
+        "f1": 0.881619213256991,
+        "evaluate_time_taken": 0.31045480001193937
+      },
+      {
+        "epoch": 3,
+        "loss": 0.27603563798798453,
+        "accuracy": 0.8898206382483113,
+        "precision": 0.8894190610020698,
+        "recall": 0.8901646011552241,
+        "f1": 0.8896556532384307,
+        "evaluate_time_taken": 0.31487982999533415
+      },
+      {
+        "epoch": 4,
+        "loss": 0.28040549285985805,
+        "accuracy": 0.8919170743070114,
+        "precision": 0.8926452181169162,
+        "recall": 0.890729613845977,
+        "f1": 0.8914042897647603,
+        "evaluate_time_taken": 0.31319996700040065
+      }
+    ],
+    "test": [
+      {
+        "epoch": null,
+        "loss": 0.3064176448793323,
+        "accuracy": 0.8828325180526438,
+        "precision": 0.883415852931738,
+        "recall": 0.8819004998145211,
+        "f1": 0.8824143870778068,
+        "evaluate_time_taken": 0.313578224988305
+      }
+    ]
+  }
+}
